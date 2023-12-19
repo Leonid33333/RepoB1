@@ -1,1 +1,7 @@
-a, b = map(int, input("Enter A and B: ").split())
+a = float(input("Введите первое число: "))
+b = float(input("Введите второе число: "))
+
+# Вычислить сумму
+sum = a + b
+
+print("Сумма чисел:", sum)
